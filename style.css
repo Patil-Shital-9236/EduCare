@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+  color: #333;
+}
+
+header {
+  background: #004aad;
+  padding: 10px 20px;
+  color: white;
+}
+
+header h1 {
+  display: inline;
+}
+
+nav ul {
+  list-style: none;
+  float: right;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background: #e3f2fd;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 10px;
+  background: #004aad;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.courses {
+  padding: 20px;
+}
+
+.course-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.course-card {
+  background: white;
+  padding: 15px;
+  margin: 10px;
+  width: 250px;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+}
+
+.course-card img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: auto;
+}
+
+form input, form textarea, form button {
+  margin: 10px 0;
+  padding: 10px;
+}
+
+footer {
+  background: #004aad;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}
